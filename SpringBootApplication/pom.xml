@@ -22,7 +22,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<scm.url>scm:git:https://github.com/jfeddern/spring-boot-app.git</scm.url>
 	</properties>
 
 	<dependencies>
@@ -52,11 +51,10 @@
 	</build>
  
 	<scm>
-		<url>${scm.url}</url>
-		<connection>${scm.url}</connection>
-		<developerConnection>${scm.url}</developerConnection>
-		<tag>HEAD</tag>
-	</scm>
+    <url>https://github.com/jfeddern/spring-boot-app</url>
+    <connection>scm:git:ssh://git@github.com/jfeddern/spring-boot-app.git</connection>
+    <tag>HEAD</tag>
+  </scm>
 
 
 </project>
