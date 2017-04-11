@@ -52,7 +52,7 @@
  
 	<scm>
     <url>https://github.com/jfeddern/spring-boot-app</url>
-    <connection>scm:git:ssh://git@github.com/jfeddern/spring-boot-app.git</connection>
+    <connection>scm:git:git@github.com/jfeddern/spring-boot-app.git</connection>
     <tag>HEAD</tag>
   </scm>
 
